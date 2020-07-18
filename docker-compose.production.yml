@@ -1,8 +1,0 @@
-version: '2'
-services:
-  web:
-    extends:
-      file: docker-compose.yml
-      service: web
-    environment:
-      - APP_ENV=production
